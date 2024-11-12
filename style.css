@@ -1,0 +1,107 @@
+*{
+    background-color: black;
+}
+.card-wrapper{
+     width: 400px;
+     border: 1px solid white;
+     justify-content: center;
+     margin: 0 auto;
+     border-radius: 20px;
+     overflow: hidden;
+     position: relative;
+     box-shadow: #ded8ddcd 0px 7px 29px 0px;
+}
+
+.shoe-img img{
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  height: 350px;
+  background-color: violet;
+
+}
+.fa-heart{
+    position: absolute;
+    top: 20px;
+    right: 20px; /* Adjusted for better placement */
+    background: none;
+    border: 1px solid rgb(211, 202, 202);
+    padding: 8px;
+    border-radius: 50%;
+    background-color: rgb(150, 143, 143);
+    color: white;
+   
+}
+.details{
+    width: calc(100%);
+    padding: 20px;
+    background-color: violet; 
+    border: 2px solid violet; 
+    border-radius: 20px; 
+    margin: -30px auto 0 auto; 
+    position: relative;
+    z-index: 1; 
+    box-sizing: border-box;
+    color: white;
+
+    
+}
+.details h2{
+    background-color: violet;
+    color: black;
+    font-weight: 800;
+    font-size: 32px;
+    margin-top: -20px;
+}
+.details span{
+    border: 1px solid white;
+    background-color: violet;
+    padding: 3px;
+    border-radius: 2px;
+    color: black;
+}
+.details p{
+    background-color: violet;
+    color: black;
+    font-size: 18px;
+}
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color:violet;
+    border-radius: 0 0 15px 15px;
+}
+/* .price, h5 ,h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    padding: 0;
+    background-color: violet;
+} */
+
+.price h3{
+    background-color: violet;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 30px;
+}
+#price{
+    background-color: violet;
+    padding: 0;
+    margin: 0;
+}
+.add-to-cart {
+    padding: 10px 15px;
+    background-color: #6253ee;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+.add-to-cart:hover {
+    background-color: violet;
+}
